@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { stud } from './studentdetails/stud';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  private gridData: any[] = stud;
 }

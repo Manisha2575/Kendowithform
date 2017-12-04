@@ -1,0 +1,77 @@
+.aa {
+    border-radius: 4px;
+    background-color: #01010C;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .aa span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .aa span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .aa:hover span {
+    padding-right: 25px;
+  }
+  
+  .aa:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .aa2 {
+    border-radius: 4px;
+    background-color: #010108;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .aa2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .aa2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .aa2:hover span {
+    padding-right: 25px;
+  }
+  
+  .aa2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

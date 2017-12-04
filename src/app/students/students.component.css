@@ -1,0 +1,23 @@
+a:hover{
+    text-decoration: none;
+  }
+  
+  .button{
+    text-align: center;
+    padding-top:40px;
+  }
+  
+  .container{
+    padding-bottom:130px;
+  }
+  .h3tag{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top:100px;
+  }
+  
+/* 
+input[type="text"].ng-invalid, input[type="email"].ng-invalid, input[type="password"].ng-invalid, input[type="date"].ng-invalid, input[type="number"].ng-invalid, input[type="file"].ng-invalid, textarea.ng-invalid, select.ng-invalid {
+    border-left: 35px solid lightblue;
+    background-color: white;
+} */

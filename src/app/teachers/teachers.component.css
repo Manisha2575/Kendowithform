@@ -1,0 +1,32 @@
+.demo-panel{
+  margin: 100px;
+}
+.btn2{
+  border: none;
+	padding: 1.1em 6.5em;
+	background: #00abc6;
+	color: #fff;
+	font-family: 'TitilliumText22LRegular', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 1.1em;
+	border-radius: 0px;
+}
+.btn1{
+  border: none;
+	padding: 1.1em 6.5em;
+	background: #00abc6;
+	color: #fff;
+	font-family: 'TitilliumText22LRegular', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 1.1em;
+	border-radius: 0px;
+}
+.btn1{
+
+background-color: #5151F3 ;
+  
+}
+.btn2{
+  background: #03030F ;
+  
+}

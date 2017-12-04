@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="h3tag">
+    <h2>LOG-IN</h2>
+  </div>
+
+  <form [formGroup]="reactiveForm" (ngSubmit)="submitForm(reactiveForm.value)">
+    <div class="row">
+      <div class="col-lg-4">
+      </div>
+      <div class="col-lg-4">
+        <label for="email">Email</label>
+        <div class="input-group">
+          <div class="input-group-addon">
+            <i class="fa fa-envelope" aria-hidden="true"></i> </div>
+          <input class="form-control" type="email" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName='email'>
+          <div *ngIf="reactiveForm.controls['email'].touched && reactiveForm.controls['email'].hasError('required')" class="alert alert-danger">Email is Needed.
+          </div>
+        </div>
+
+
+        <label for="password">Password</label>
+        <div class="input-group">
+          <div class="input-group-addon">
+            <i class="fa fa-key" aria-hidden="true"></i></div>
+          <input class="form-control" type="password" id="exampleInputPassword1" formControlName='password'>
+          <div *ngIf="reactiveForm.controls['password'].touched && reactiveForm.controls['password'].hasError('required')" class="alert alert-danger">Password is Needed.
+          </div>
+        </div>
+        <a href="#">Forgot password?</a>
+      </div>
+    </div>
+
+    <div class="button">
+      <button type="submit" class="btn btn-primary" [disabled]="!reactiveForm.valid" routerLink="/studentdetails">Submit</button>
+    </div>
+  </form>
+  
+</div>

@@ -1,0 +1,45 @@
+<mat-card class="demo-panel">
+
+    <mat-card-content>
+
+        <div class="btn1">
+        <button mat-raised-button color="primary" [matMenuTriggerFor]="menu" routerLink="/students">Total Teachers</button>
+    </div>
+
+        <div class="btn2">
+        <button mat-raised-button color="primary" [matMenuTriggerFor]="menu">Required Teachers</button>
+
+
+
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item [matMenuTriggerFor]="subMenu">
+            <i class="fa fa-male" aria-hidden="true"></i>
+        <span>Male</span>
+      </button>
+
+                
+            <button mat-menu-item >
+            <i class="fa fa-female" aria-hidden="true"></i>
+        <span>Female</span>
+      </button>
+      
+      
+            <button mat-menu-item>
+            <i class="fa fa-search" aria-hidden="true"></i> 
+        <span>Sister</span>
+      </button>
+        </mat-menu>
+
+        </div>
+
+        <mat-menu #subMenu="matMenu">
+            <button mat-menu-item>Age 25</button>
+            <button mat-menu-item>Age 30</button>
+            <button mat-menu-item>Age 35</button>
+        </mat-menu>
+
+
+    </mat-card-content>
+
+
+</mat-card>
